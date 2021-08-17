@@ -1,0 +1,124 @@
+body{
+    background-color:lightsalmon ;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vH;
+    background-color: lightsalmon;
+}
+#list{
+    width:25%
+}
+.head {
+    display: inline;
+    list-style: none;
+    margin: 1rem;
+}
+#title{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h1 {
+    display: inline-block;
+    font-size: 4em;
+}
+
+#shop_tag {
+    width:25%;
+    margin-top:1%;
+}
+#head_order{
+    float: right;
+    margin-right:2%;
+}
+
+.fas {
+    font-size: 2rem;
+    margin-left:200px;
+    margin-top: 12px;
+}
+
+.shop {
+    background-color: darkolivegreen;
+    width:100px;
+    height: 50px;
+    border-color:darkolivegreen;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 1%;
+}
+#section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80vH;
+}
+#part_one{
+    width: 25%;
+    height: 80vh;
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#part_two{
+    width:45%;
+    height: 80vh;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#part_three{
+    width: 25%;
+    height: 80vh;
+    background-image: url("bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-size: 2.5rem;
+    margin-top:200px;
+    line-height: 1rem;
+    letter-spacing:.18em;
+    text-align: center;
+}
+#section_p{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+#section_id{
+    margin-left: 130px;
+}
+#apart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 100%;
+    height:50vh;
+   /background-image: url("shop3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
