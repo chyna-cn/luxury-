@@ -1,5 +1,5 @@
 let apart = document.getElementById('apart');
-let images = ['shop.jpg', 'shop1.jpg', 'shop2.jpg', 'shop3.jpg', 'shop4.png'];
+let images = ['shop1.jpg', 'shop2.jpg', 'shop3.jpg', 'shop4.jpg', 'shop5.jpg'];
 function bg_Change() {
     let currentImageIndex = 0;
 
@@ -9,8 +9,8 @@ function bg_Change() {
         } else {
             currentImageIndex++
         }
-        apart.style.backgroundImage = images[currentImageIndex];
-    }, 1000);
+        apart.style.backgroundImage = `url('${ images[currentImageIndex]}')`;
+    }, 2500);
 
 }
 bg_Change()
