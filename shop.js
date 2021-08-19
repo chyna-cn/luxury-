@@ -14,3 +14,23 @@ function bg_Change() {
 
 }
 bg_Change()
+
+
+function toggleHamburgerMenu() {
+    const xsSideMenu = document.getElementsByClassName('xs-hamburger-menu-list')
+    if (xsSideMenu[0].classList.contains('hide-elem')) {
+        xsSideMenu[0].classList.remove('hide-elem')
+        xsSideMenu[0].classList.add('show-elem')
+    }else {
+        xsSideMenu[0].classList.add('hide-elem')
+        xsSideMenu[0].classList.remove('show-elem')
+    }
+
+
+}
+
+
+const closeHamburgerButtons = document.getElementsByClassName('close-hamburger-icon')
+const openHamburgerButtons = document.getElementsByClassName('open-hamburger-icon')
+closeHamburgerButtons[0].addEventListener('click',toggleHamburgerMenu )
+openHamburgerButtons[0].addEventListener('click',toggleHamburgerMenu)

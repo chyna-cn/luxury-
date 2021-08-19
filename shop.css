@@ -1,157 +1,183 @@
-@media only screen and (min-width: 600px) {
-    body {
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
-    }
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
-@media only screen and (min-width: 992px) {
-    body {
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
-    }
+ul{
+    padding-left: 0;
+}
 
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        box-sizing: border-box;
-        width: 100%;
-        height: 20vH;
-        background-color: black;
-    }
+.hide-elem {
+    display: none !important;
+}
+.show-elem {
+    display: block !important;
+}
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
 
-    #list {
-        width: 25%
-    }
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vH;
+    background-color: black;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+}
 
-    .head {
-        display: inline;
-        list-style: none;
-        margin: 1rem;
-        color: white;
-    }
+#list {
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
 
-    #title {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+.head {
+    display: inline;
+    margin: 1rem;
+    color: white;
+}
 
-    h1 {
-        display: inline-block;
-        font-size: 4em;
-        color: white;
-    }
+#title {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
 
-    #shop_tag {
-        width: 25%;
-        margin-top: 1%;
-    }
+h1 {
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+}
 
-    #head_order {
-        float: right;
-        margin-right: 2%;
-    }
+#shop_tag {
+    width: 25%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 
-    .fas {
-        font-size: 2rem;
-        margin-left: 200px;
-        margin-top: 12px;
-        color: white;
-    }
+#head_order {
+    float: right;
+    margin-right: 2%;
+}
+.close-hamburger-icon {
+    font-size: 3rem;
+}
+.open-hamburger-icon {
+    font-size: 3rem;
+    color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+.cart-icon {
+    font-size: 2rem;
+    color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
 
-    .shop {
-        background-color: darkolivegreen;
-        width: 100px;
-        height: 50px;
-        border-radius: 3px;
-        outline: none;
-        border: none;
-        font-size: 1rem;
-        margin-right: 1%;
-        color: white;
-    }
+.shop {
+    background-color: #64918a;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    margin-right: 1%;
+    color: white;
+}
 
-    #section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        box-sizing: border-box;
-        width: 100%;
-        height: 80vH;
-    }
+#section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80vH;
+}
 
-    #part_one {
-        width: 25%;
-        height: 80vh;
-        background-image: url("lux2.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+#part_one {
+    width: 25%;
+    height: 80vh;
+    background-image: url("lux2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    #part_two {
-        width: 49.5%;
-        height: 80vh;
-        background-image: url("lux3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+#part_two {
+    width: 49.5%;
+    height: 80vh;
+    background-image: url("lux3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-    #part_three {
-        width: 25%;
-        height: 80vh;
-        background-image: url("lux1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+#part_three {
+    width: 25%;
+    height: 80vh;
+    background-image: url("lux1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    h2 {
-        color: white;
-        font-size: 2.5rem;
-        margin-top: 200px;
-        line-height: 1rem;
-        letter-spacing: .18em;
-        text-align: center;
-    }
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 200px;
+    line-height: 1rem;
+    letter-spacing: .18em;
+    text-align: center;
+}
+.brand-name {
+    font-size: 3rem;
+    color: white;
+}
+#section_p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
 
-    #section_p {
-        color: white;
-        font-size: 1.5em;
-        text-align: center;
+}
 
-    }
+#section_id {
+    /*margin-left: 300px;*/
+}
 
-    #section_id {
-        margin-left: 300px;
-    }
+#apart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    background-image: url("shop3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    #apart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 100%;
-        height: 50vh;
-        object-fit: cover;
-        background-image: url("shop3.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin: auto;
-    }
+h3 {
+    color: white;
+}
 
-    h3 {
-        text-align: center;
-        color: white;
-    }
-
-    li {
-        list-style: none;
-        line-height: 2em;
-        color: white;
-    }
+li {
+    list-style: none;
+    line-height: 2em;
+    color: white;
 }

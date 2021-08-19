@@ -1,0 +1,69 @@
+
+@media (max-width: 768px) {
+    .head {
+        display: block;
+        margin: 1rem;
+        color: black;
+    }
+    .xs-hamburger-menu-list {
+        background-color: white;
+        width: 70vw;
+        position: absolute;
+        z-index: 3;
+        height: 100%;
+    }
+
+    #part_one, #part_three{
+        display: none;
+    }
+    #part_two{
+        width: 100%;
+    }
+    #list{
+        display: none;
+    }
+    /*extra small*/
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .head {
+        display: block;
+        margin: 1rem;
+        color: black;
+    }
+    .xs-hamburger-menu-list {
+        background-color: white;
+        width: 50vw;
+        height: 100%;
+        position: absolute;
+        z-index: 3;
+    }
+    #part_one, #part_three{
+        display: none;
+    }
+    #part_two{
+        width: 100%;
+    }
+    #list{
+        display: none;
+    }
+    /*small device*/
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    /*medium*/
+    .open-hamburger-icon {
+        display: none !important;
+    }
+    .xs-hamburger-menu-list {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1201px) {
+    .open-hamburger-icon {
+        display: none !important;
+    }
+    .xs-hamburger-menu-list {
+        display: none !important;
+    }
+   /*large*/
+}

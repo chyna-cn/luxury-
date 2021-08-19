@@ -12,28 +12,39 @@
 
 
     <link href="shop.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2d0b3ba829.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
+    <div class="xs-hamburger-menu-list hide-elem">
+        <button style="background-color: transparent; border: none; float: right"><i class="far fa-window-close close-hamburger-icon"></i></button>
+        <nav>
+            <ul>
+                <li class="head"><a>Home</a></li>
+                <li class="head"><a>Shop</a></li>
+                <li class="head"><a>About</a></li>
+                <li class="head"><a>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <div id="list">
         <nav>
             <ul>
-                <li class="head">Home</li>
-                <li class="head">Shop</li>
-                <li class="head">About</li>
-                <li class="head">Contact</li>
+                <li class="head"><a>Home</a></li>
+                <li class="head"><a>Shop</a></li>
+                <li class="head"><a>About</a></li>
+                <li class="head"><a>Contact</a></li>
             </ul>
         </nav>
     </div>
     <div id="title">
-        <h1>Sarina</h1>
+        <i class="fas fa-bars open-hamburger-icon"></i>
+        <p class="brand-name">Sarina</p>
     </div>
     <div id="shop_tag">
-        <label>
-            <i class="fas fa-shopping-cart"></i>
-        </label>
-        <button type="submit" class="shop" id="head_order">Shop Now </button>
+        <button class="shop">Shop Now</button>
+        <i class="fas fa-shopping-cart cart-icon"></i>
     </div>
 </header>
 <div id="section">
@@ -41,7 +52,7 @@
     <div id="part_two">
         <h2>LUXURY ITEMS</h2>
         <p id ="section_p">Available For Worldwide Shipping</p>
-        <button type="submit" class="shop" id ="section_id">Shop Now</button>
+        <center><button type="submit" class="shop" id ="section_id">Shop Now</button></center>
     </div>
     <div id="part_three"></div>
 </div>
